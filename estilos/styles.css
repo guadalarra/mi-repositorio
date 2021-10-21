@@ -200,3 +200,8 @@ footer {
     @media screen and (max-width: 360px) {
       .carousel .frase {
         font-size: 100%; } }
+h3{
+    margin: 2rem;
+    color: grey;
+    font-family: 'Open Sans', sans-serif; 
+}
