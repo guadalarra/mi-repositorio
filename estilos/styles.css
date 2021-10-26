@@ -223,7 +223,6 @@ footer .copyright {
       padding: 0.938rem;
       margin-top: 1rem;
       border-radius: 5px; }
-
 .banner {
   position: relative;
   display: inline-block;
@@ -231,26 +230,25 @@ footer .copyright {
 }
 
 .banner img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .banner .frase-banner {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-90%, -50%);
-  font-size: 48px;
-    text-decoration: solid;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    text-align: center; }
-    @media screen and (max-width: 768px) {
-      .banner .frase {
-        font-size: 190%; } }
-    @media screen and (max-width: 360px) {
-      .banner .frase {
-        font-size: 100%; } }
-  
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 1rem;
+}
+
+.banner .frase-banner p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 45px;
+  height: 100%;
+}
+
 .flexbox {
   width: 80%;
   max-width: 1240px;
@@ -376,7 +374,6 @@ footer .copyright {
   font-weight: bolder;
 }
 
- 
 h3{
     margin: 2rem;
     color: grey;
