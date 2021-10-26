@@ -223,6 +223,12 @@ footer .copyright {
       padding: 0.938rem;
       margin-top: 1rem;
       border-radius: 5px; }
+h3{
+    margin: 2rem;
+    color: grey;
+    font-family: 'Open Sans', sans-serif; 
+}
+
 .banner {
   position: relative;
   display: inline-block;
@@ -372,10 +378,4 @@ footer .copyright {
   font-size: 0.8rem;
   letter-spacing: 3px;
   font-weight: bolder;
-}
-
-h3{
-    margin: 2rem;
-    color: grey;
-    font-family: 'Open Sans', sans-serif; 
 }
