@@ -251,10 +251,10 @@ h3{
   text-align: center; }
   @media screen and (max-width: 768px) {
     .banner .frase {
-      font-size: 190%; } }
+      font-size: 150%; } }
   @media screen and (max-width: 360px) {
     .banner .frase {
-      font-size: 100%; } }
+      font-size: 50%; } }
 
 }
 
